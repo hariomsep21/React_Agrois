@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-btn: #4BAF47;
+  --default-font: "Manrope", sans-serif;
+  --special-heading-font: "Covered By Your Grace", cursive;
+  --color-sub-heading: #EEC044;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --categories-bgcolor: #F8F7F0;
+
+  --footer-primary-color: #A5A49A;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+.shopCart {
+  position: relative;
+  /* Ensure the sup is positioned relative to this container */
+}
+
+.shopCart .icon {
+  padding: 11px 7px;
+  position: relative;
+  /* Ensure relative positioning for alignment */
+}
+
+.shopCart sup {
+  position: absolute;
+  top: 7px;
+  /* Adjust this value to position the sup above the icon */
+  right: -4px;
+  /* Adjust this value to align the sup with the icon */
+
+  background-color: var(--color-greenish);
+  color: var(--color-primary);
+  border-radius: 50%;
+  padding: 0 4px;
+}
+
+.shopCart a {
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  color: var(--color-primary);
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbarSupportedContent a {
+  font-weight: 600;
+  color: var(--color-paragraph);
+
+}
+
+.navbarSupportedContent a:active {
+  color: var(--color-heading);
+  font-weight: 800;
+}
+
+.detail .icon {
+  margin-top: 30px;
+}
+
+.para1 {
+  font-size: 10px;
+  line-height: 0px;
+  margin-bottom: 6px;
+  color: var(--color-paragraph);
+}
+
+
+.para2 {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.detail .icon .FontAwesomeIcon {
+  width: 28px;
+  font-size: 10px;
+  border-radius: 20px;
+  background-color: var(--categories-bgcolor);
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+/* navbar css */
+
+.navBarSection {
+  padding: 0px 0px 1px 0px;
+  border: 0px 0px 1px 0px;
+  background-color: var(--categories-bgcolor);
+
+}
+
+.detail .paragraph {
+  margin: 18px 16px 0px 20px;
+}
+
+.navBarSection a {
+  font-size: 13px;
+  width: 70px;
+}
+
+.navBar {
+  padding: 0px 0.01px 0px 0px;
+}
+
+
+
+.logo {
+  width: 100px;
+  height: 35px;
+}
+
+
+
+.logodiv {
+  width: 200px;
+  height: 98px;
+  padding: 24.75px 0px 31.75px 10px;
+}
+
+
+.searchIconDiv {
+  margin-left: 155px;
+}
+
+.searchIcon {
+  padding: 6px 0px 0px 40px;
+  border-left: 1px solid #E4E2D7;
+
+}
+
+.searchIcon .serach_Icon {
+  width: 20px;
+  height: 24px;
+}
+
+.offer .call,
+.message,
+.location {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid #E4E2D7;
+  margin-left: 25px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer .location {
+  border-right: none;
+}
+
+
+.offer .call img {
+  width: 16%;
+  padding-top: 14px;
+  height: 16%;
+}
+
+.offer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.offer .message img {
+  width: 14%;
+  padding-top: 12px;
+  height: 14%;
+}
+
+.location img {
+  width: 12%;
+  height: 16%;
+  padding-top: 11px;
+}
+
+.loginbtn {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-weight: 800px;
+}
+
+.logintext {
+  width: auto !important;
+  height: auto;
+}

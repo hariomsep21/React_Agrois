@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+  --default-font: "Manrope", sans-serif;
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-sub-heading: #EEC044;
+}
+
+/* Fonts */
+
+/* Global color */
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}
+
+/* section start */
+.section {
+  margin-bottom: 100px;
+}
+
+
+.cards {
+  margin-top: 100px;
+}
+
+.cards_div {
+  padding: 0px 140px;
+}
+
+.cards_div .card {
+  width: 100%;
+  height: 365px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards_div .card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.cards_div .card_heading {
+  width: 127.17px;
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-primary);
+  margin-top: 250px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* section-end */

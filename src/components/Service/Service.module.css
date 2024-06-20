@@ -1,0 +1,27 @@
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope";
+  --fontFamily-grace: "Covered By Your Grace";
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --color-boxShadow: #0000001A;
+}
+
+
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+  --default-font: "Manrope", sans-serif;
+  --special-heading-font: "Covered By Your Grace", cursive;
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+}
+
+body {
+  background-color: var(--color-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* section-1 css start */
+.section_1 {
+  margin-bottom: 100px;
+}
+
+
+
+.section_1 .title_cards {
+  margin-top: 60px;
+  padding: 0 140px;
+}
+
+.title_cards .card_1,
+.title_cards .card_2,
+.title_cards .card_3 {
+  padding: 0 15px 14px 15px;
+}
+
+.title_cards .card {
+  padding: 20px 0 10px 20px;
+  border-radius: 10px;
+  background-color: var(--color-greenish);
+  width: 99%;
+}
+
+.title_cards .card_2 .card {
+  background-color: #C5CE38;
+}
+
+.title_cards .card_3 .card {
+  background-color: #EEC044;
+}
+
+.title_cards .card .heading {
+  font-family: var(--special-heading-font);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.title_cards .card .paragraph {
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.title_cards .card .para_1 {
+  width: 90%;
+}
+
+.title_cards .card .para_2 {
+  width: 69%;
+}
+
+.title_cards .card .para_3 {
+  width: 77%;
+}
+
+/* section css end */

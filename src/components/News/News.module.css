@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope", sans-serif;
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --footer-primary-color: #A5A49A;
+}
+
+body {
+  background-color: var(--color-primary);
+  margin: 0px;
+  padding: 0px;
+}
+
+/* section-1 start */
+
+.section1 {
+  margin-bottom: 100px;
+}
+
+.cards .cardsDiv {
+  margin-top: 10px;
+  padding: 0px 140px;
+}
+
+.cards .card {
+  width: 111%;
+  height: 370px;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 0px 2px 14px 0px #0000000D;
+  position: relative;
+}
+
+.cards .card img {
+  border-radius: 0px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.cards .card .date {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-greenish);
+  border-radius: 8px;
+  padding: 5px 10px;
+  z-index: 1;
+  margin-top: 208px;
+
+}
+
+.cards .card .date p {
+  font-family: var(--default-font);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-align: center;
+  margin: 0;
+}
+
+.cards .card .author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+  margin-top: 25px;
+}
+
+.cards .card .author .authorName {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards .card .author .authorName i {
+  color: var(--color-sub-heading);
+  font-size: 11px;
+  padding-right: 7px;
+}
+
+.cards .card .author .authorName p {
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: center;
+  color: var(--color-paragraph);
+}
+
+.cards .card .author .comment {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards .card .author .comment i {
+  color: var(--color-sub-heading);
+  font-size: 11px;
+  padding-right: 7px;
+}
+
+.cards .card .author .comment p {
+  font-family: var(--default-font);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: center;
+  color: var(--color-paragraph);
+}
+
+.cards .card .paragraph {
+  padding: 0px 16px 0px 41px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cards .card .paragraph p {
+  width: 170px;
+  font-family: var(--default-font);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  text-align: center;
+  color: var(--color-heading);
+  margin-top: 10px;
+}
+
+.FontAwesomeIcon {
+  padding-right: 8px;
+  color: #EEC044;
+  width: 15px;
+  height: 15px;
+}
+
+/* section-end */

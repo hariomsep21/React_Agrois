@@ -1,0 +1,55 @@
+.section_3 {
+  background-image: url(../photos/services-section-3-img.png);
+  background-size: 38% 100%;
+  background-repeat: no-repeat;
+  background-color: #4BAF47;
+  background-position: right;
+}
+
+.last_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.last_title .head {
+  padding: 40px 0px;
+}
+
+.last_title .sub_heading {
+  font-family: var(--fontFamily-grace);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: var(--color-sub-heading);
+}
+
+.last_title .heading {
+  font-family: var(--default-font);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 0px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: var(--color-primary);
+}
+
+.section_3 .discoverMore_btn {
+  padding: 11px 25px;
+  border-radius: 6px;
+  background: var(--color-sub-heading);
+
+  font-family: var(--default-font);
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: left;
+  color: var(--color-primary);
+  border: none;
+
+}
+
+/* section-3 css end */

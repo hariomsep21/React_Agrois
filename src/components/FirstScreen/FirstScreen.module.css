@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Manrope", sans-serif;
+}
+
+/* Global color */
+:root {
+  --color-primary: #ffffff;
+  --color-heading: #1F1E17;
+  --color-paragraph: #878680;
+  --color-greenish: #4BAF47;
+  --color-sub-heading: #EEC044;
+  --footer-primary-color: #A5A49A;
+}
+
+.titleContainer {
+  background-image: url(../photos/Title_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.titleContainer .subHeading {
+  font-family: var(--default-font);
+  font-size: 8px;
+  font-weight: 600;
+  color: #FFFFFFB2;
+  letter-spacing: 1.399999976158142px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titleContainer .heading {
+  font-family: var(--default-font);
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--color-primary);
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+.TheBlog .blog .subHeading {
+  font-family: var(--special-heading-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 10px;
+
+  color: var(--color-sub-heading);
+
+}
+
+
+.seven8{
+margin: 0px 0px 80px 0px;
+}
+
+
+ .blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-bottom: 35px;
+}
+
+ .blog .heading {
+  font-family: var(--default-font);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+  color: var(--color-heading);
+}
+
+.cards .cardsDiv {
+  padding: 0px 140px;
+
+}
+
+

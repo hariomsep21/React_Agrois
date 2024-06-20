@@ -1,0 +1,133 @@
+.section1 .section1ContentDiv {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 140px !important;
+
+}
+
+
+.getKnowUs {
+  padding: 0px 0px 15px 0px;
+}
+
+.getKnowUs .subHeading {
+  font-family: var(--fontFamily-grace);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  height: 20px;
+  color: var(--color-sub-heading);
+
+}
+
+.getKnowUs,
+.heading {
+  font-family: var(--default-font);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 35px;
+  text-align: left;
+  color: var(--color-heading);
+
+}
+
+
+.tractorImg {
+  width: 331px;
+  border-radius: 10px;
+}
+
+.section1Img .greenSquare {
+  width: 100px;
+  height: 100px;
+  margin-left: -60px;
+  margin-top: -296px;
+  border-radius: 10px;
+  background-color: #C5CE38;
+}
+
+.girlImgDiv {
+  border-radius: 10px;
+  margin: -45px 0px 0px -88px;
+}
+
+.girlImg {
+  width: 42%;
+}
+
+.section1Content .title {
+  padding: 0px 21px 20px 0px;
+}
+
+.section1Content .title h3 {
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+
+  color: var(--color-greenish);
+}
+
+.section1Content .paragraph {
+  padding: 0px 0px 20px 0px;
+
+}
+
+.section1Content .paragraph p {
+  font-family: var(--default-font);
+  font-size: 11px;
+  width: 93%;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: var(--color-paragraph);
+
+}
+
+
+.points {
+  padding: 0px 0px 12px 0px;
+}
+
+.point1,
+.point2,
+.point3 p {
+  font-family: var(--default-font);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2px;
+  text-align: left;
+  color: var(--color-heading);
+
+}
+
+
+
+.section1 .points .tick {
+
+  font-size: 11px;
+  font-weight: 800;
+
+  color: #C5CE38;
+  text-align: center;
+  margin: 0px 16px 0px 0px;
+}
+
+.section1 .discoverMoreBtn {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: var(--color-greenish);
+
+  font-family: var(--default-font);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: var(--color-primary);
+  border: none;
+}
+
+.section1 .section1Btn {
+  margin-top: 30px;
+}

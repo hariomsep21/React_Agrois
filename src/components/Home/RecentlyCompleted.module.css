@@ -1,0 +1,44 @@
+.sectionFive {
+  padding: 0px 140px;
+}
+
+.subHeading {
+
+  font-family: var( --special-heading-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+  color: var(--color-sub-heading);
+
+}
+
+ .head {
+  margin-top: 100px;
+  background-color: #ffff;
+}
+
+.heading {
+
+  font-family: var(--default-font);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-heading);
+}
+
+.projectImg {
+
+  display: flex;
+justify-content: center;
+}
+
+.sectionFive .projectImg img {
+  padding: 25px 5px 50px 5px;
+  border-radius: 10px;
+  width: 23%;
+  height: auto;
+  opacity: 0px;
+
+}
